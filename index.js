@@ -1,9 +1,22 @@
+let saveEl = document.getElementById("save-el")
+let countEl = document.getElementById("count-el")
+let count = 0
 
-let welcomeEl = welcome-el
+console.log(saveEl)
 
-let greeting = "Hi, my name is "
+function increment() {
+    // Change this to use the plus equal technique you've learned
+    count += 1
+    countEl.innerText = count
+}
 
-let name = (greeting +  welcomeEl)
+function save() {
+    let countStr = count + " - "
+    saveEl.textContent += countStr
+    console.log(count)
+    countEl.textContent = 0
+    count = 0 
+}
 
-console.log(myGreeting)
+
 
