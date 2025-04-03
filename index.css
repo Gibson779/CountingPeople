@@ -1,5 +1,5 @@
 body {
-    background-image: url("Queue.jpeg");
+    background-image: url("Race\ Track.jpg");
     background-size: cover;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
@@ -8,10 +8,10 @@ body {
 
 
 .container {
-    background: rgb(203, 215, 233);
+    background: white;
     max-width: 40%;
     margin: 0 auto;
-    border: 10px solid rgb(0, 0, 0);
+    border: 5px solid rgb(0, 0, 0);
     border-radius: 20px;
 
 }
@@ -40,9 +40,9 @@ button {
 }
 
 #increment-btn {
-    background: rgb(4, 11, 42);
+    background: rgb(1, 112, 185);
 }
 #save-btn {
-    background: rgb(1, 108, 1);
+    background: rgb(241, 46, 32);
 }
 
